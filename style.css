@@ -1,0 +1,59 @@
+/* Reset & dasar */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #fef9f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #ffe082;
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 20px;
+  color: #555;
+}
+
+/* Section */
+section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  color: #ffb74d;
+  margin-bottom: 20px;
+}
+
+/* Projects */
+.project {
+  background-color: #fff3e0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.project a {
+  color: #f57c00;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffe082;
+  margin-top: 40px;
+}
