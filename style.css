@@ -1,10 +1,9 @@
-/* Reset & dasar */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #fef9f4;
+  background: linear-gradient(135deg, #ffe6f0, #fff9c4, #d1c4e9); /* warna kreasi pastel */
   color: #333;
 }
 
@@ -12,17 +11,18 @@ body {
 header {
   text-align: center;
   padding: 50px 20px;
-  background-color: #ffe082;
+  background: linear-gradient(135deg, #fbc4f6, #fff176);
 }
 
 header h1 {
   font-size: 48px;
   margin-bottom: 10px;
+  color: #8e24aa;
 }
 
 header p {
-  font-size: 20px;
-  color: #555;
+  font-size: 22px;
+  color: #6a1b9a;
 }
 
 /* Section */
@@ -30,30 +30,47 @@ section {
   max-width: 800px;
   margin: 40px auto;
   padding: 0 20px;
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 15px;
+  padding: 30px;
 }
 
 h2 {
-  color: #ffb74d;
+  color: #f06292;
   margin-bottom: 20px;
+  text-align: center;
 }
 
-/* Projects */
-.project {
-  background-color: #fff3e0;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 10px;
+/* Lists */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
 }
 
-.project a {
-  color: #f57c00;
-  text-decoration: none;
+/* Galeri */
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.gallery-container img {
+  width: 200px;
+  border-radius: 15px;
+  transition: transform 0.3s;
+}
+
+.gallery-container img:hover {
+  transform: scale(1.1);
 }
 
 /* Footer */
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #ffe082;
+  background-color: #ffd54f;
   margin-top: 40px;
+  font-weight: bold;
 }
+
